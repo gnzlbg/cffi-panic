@@ -1,0 +1,12 @@
+[package]
+name = "single_threaded_cancel_longjmp"
+version = "0.1.0"
+authors = ["Gonzalo Brito Gadeschi <gonzalobg88@gmail.com>"]
+edition = "2018"
+
+[[bin]]
+name = "single_threaded_cancel_longjmp"
+path = "rust.rs"
+
+[build-dependencies]
+cc = "1.0"

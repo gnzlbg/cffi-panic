@@ -1,0 +1,5 @@
+[workspace]
+members = [
+  "single_threaded_cancel_longjmp",
+  "single_threaded_cancel_exception",
+]
